@@ -1,0 +1,191 @@
+html, body{
+height: 100%;
+color: #c2fff5;
+background-color: #16132f;
+}
+
+.body{
+background-image: url("images/logo-1.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h3.headfont, label{
+font-family: trebuchet ms;
+}
+
+h5{
+font-family: tahoma;
+font-style: bold;
+font-size: 1.2em;
+}
+
+p{
+font-family: arial;
+}
+
+h1 {
+font-family: verdana;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+a.navbar-brand{
+border-radius: 25px;
+}
+
+a.navbar-brand:hover{
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+color: lightyellow;
+font-family: monospace;
+}
+
+.nav-link:hover {
+color: palegoldenrod;
+}
+
+.navbar-dark, .navbar-toggler{
+color: lightyellow;
+border: none;
+font-size: 1.4em;
+}
+
+.navbar-dark, .navbar-toggler:hover{	
+color: palegoldenrod;
+}
+
+ul.navbar-nav {
+font-size: 0.8em;
+}
+
+
+main {
+flex: 1 0 auto;
+}
+
+footer{
+flex-shrink: 0;
+}
+
+.card-body, .card{
+background-color: #7cd1a5;
+border-radius: 25px;
+}
+
+.btn-outline-dark{
+background-color: palegoldenrod;
+}
+
+.btn-outline-dark:hover{
+background-color: lightyellow;
+color: black;
+}
+
+.btn-outline{
+background-color: rebeccapurple;
+color: lightgray;
+}
+
+.btn-outline:hover{
+background-color: darkslateblue;
+}
+
+
+header {
+background: no-repeat center center;
+background-size: cover;
+color: white;
+}
+
+h2.centering{
+margin-left: 200px;
+}
+
+.cm{
+background-color: #230944;
+border: 2px solid #3b8268;
+border-radius: 25px;
+color: lightblue;
+font-size: 1.1em;
+}
+
+.cmp{
+background-color: #76b293;
+border-radius: 25px;
+color: #16132f;
+font-size: 1.2em;
+}
+
+img.mepic{
+border: 15px solid #5dedc4;
+border-radius: 50px;
+}
+
+img.bgpng{
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+p.lead{
+font-size: 1.3em;
+}
+
+.color-overlay {
+background-color: rgba(0,0,0,0.3);
+min-height: 60vh;
+}
+
+.singleCol {
+max-width: 750px;
+}
+
+footer {
+background:
+rgba(58, 6, 120, 0.9);
+}
+
+footer a{
+color: lightyellow;
+}
+
+footer a:hover{
+color: palegoldenrod;
+}
+
+
+a.active{
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+
+@media (max-width: 768px){
+	.color-overlay{
+	min-height: 30vh;
+	}
+}
+
+
+::-webkit-scrollbar{
+width: 12px;
+}
+
+::-webkit-scrollbar-track{
+background: #a8b6da;
+}
+
+::-webkit-scrollbar-thumb{
+background: #6678ab;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: #40548a;
+}
+
+
